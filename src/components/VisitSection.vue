@@ -1,0 +1,3 @@
+<template>
+<section class="visit section" id="visit"><div><div class="eyebrow">SEE YOU AT HEJIAN</div><h2>饭点到了，<br>来禾间坐坐<span>。</span></h2><p>独享一餐，或与喜欢的人共聚。<br>总有一张桌子，等你把日子慢下来。</p></div><div class="visit-details"><div><span class="detail-icon">⌖</span><div><small>小馆地址</small><p>杭州市 · 西湖区 · 禾间路 18 号</p><em>示例地址，请替换为真实门店地址</em></div></div><div><span class="detail-icon">◷</span><div><small>营业时间</small><p>周一至周日　11:00–14:00 / 17:00–21:00</p></div></div><div><span class="detail-icon">☎</span><div><small>联系我们</small><p>0571–0000 0000</p><em>示例电话，请替换为真实联系方式</em></div></div></div><div class="visit-seal">好好<br>吃饭</div></section>
+</template>

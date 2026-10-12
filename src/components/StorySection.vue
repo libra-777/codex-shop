@@ -1,0 +1,3 @@
+<template>
+<section class="story section" id="story"><div class="story-image"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=85" alt="暖光下的餐厅空间与木质餐桌" loading="lazy"><div class="story-label">禾间日常<small>EST. 2016 · 示例品牌故事</small></div></div><div class="story-copy"><div class="eyebrow">A LITTLE PLACE, A LOT OF HEART</div><h2>小馆不大，<br>心意很满<span>。</span></h2><p>我们相信，好的味道不必复杂。<br>是清晨挑选的一把新鲜青菜，是灶上慢慢炖的一锅肉，<br>也是你落座时，那一句熟悉的“今天想吃点什么？”</p><p>禾间，取自田禾之间。把对食材的敬意，<br>和对生活的热爱，都放进这一餐一饭。</p><a class="text-link" href="#visit">寻一处烟火，坐下来吃饭 <span>↗</span></a></div></section>
+</template>
