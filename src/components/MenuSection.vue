@@ -6,7 +6,7 @@ const filteredDishes = computed(() => dishes.filter(dish => category.value === '
 </script>
 
 <template>
-<section class="menu-section section" id="menu"><div class="section-heading"><div><div class="eyebrow">FROM OUR KITCHEN</div><h2>这一桌，都是拿手好菜<span>。</span></h2><p>熟悉的味道，认真做。每一道，都值得慢慢品尝。</p></div><span class="section-side">用心做菜 / 好好吃饭</span></div><div class="menu-toolbar"><div class="filters" aria-label="菜品分类"><button :aria-pressed="category === 'all'" @click="category = 'all'">全部菜品</button><button :aria-pressed="category === 'signature'" @click="category = 'signature'">招牌热菜</button><button :aria-pressed="category === 'seasonal'" @click="category = 'seasonal'">时令小菜</button></div><span class="menu-hint">好味不必多言 <span>↘</span></span></div><div class="dish-grid">
+<section class="menu-section section" id="menu"><div class="section-heading"><div><div class="eyebrow">FROM OUR KITCHEN</div><h2>招牌好菜，道道用心<span>。</span></h2><p>熟悉的味道，认真做。每一道，都值得慢慢品尝。</p></div><span class="section-side">用心做菜 / 好好吃饭</span></div><div class="menu-toolbar"><div class="filters" aria-label="菜品分类"><button :aria-pressed="category === 'all'" @click="category = 'all'">全部菜品</button><button :aria-pressed="category === 'signature'" @click="category = 'signature'">招牌热菜</button><button :aria-pressed="category === 'seasonal'" @click="category = 'seasonal'">时令小菜</button></div><span class="menu-hint">好味不必多言 <span>↘</span></span></div><div class="dish-grid">
 <article v-for="dish in filteredDishes" :key="dish.id" class="dish" :data-category="dish.category">
   <div class="dish-image">
     <img :src="dish.image" :alt="dish.alt" loading="lazy">
